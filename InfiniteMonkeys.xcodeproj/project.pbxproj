@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02C1572D1F34771300436A3E /* ModelSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C1572C1F34771200436A3E /* ModelSelectViewController.swift */; };
+		02C1572E1F34771300436A3E /* ModelSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C1572C1F34771200436A3E /* ModelSelectViewController.swift */; };
+		1D8D3E9634A09570ECB4478F /* Pods_FictionGenerator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE93FE78DEEF4C2149E3F0C /* Pods_FictionGenerator.framework */; };
+		36D026FF095430D103ECAA58 /* Pods_FictionGeneratorApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB625FA474C7D167A7BC2D76 /* Pods_FictionGeneratorApp.framework */; };
 		6B60370AD98312FAB15D7AD9 /* Pods_InfiniteMonkeys.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B50FFE2EA4F8CB40C8C23B9 /* Pods_InfiniteMonkeys.framework */; };
 		6D014FC91D3134ED00425449 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D014FC81D3134ED00425449 /* AppDelegate.swift */; };
 		6D014FCB1D3134ED00425449 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D014FCA1D3134ED00425449 /* ViewController.swift */; };
@@ -40,11 +44,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		02C1572C1F34771200436A3E /* ModelSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModelSelectViewController.swift; path = ../../../../Developer/FictionGenerator/FictionGenerator/ModelSelectViewController.swift; sourceTree = "<group>"; };
+		100AA12C9E510560053BE5F2 /* Pods-FictionGeneratorApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FictionGeneratorApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FictionGeneratorApp/Pods-FictionGeneratorApp.release.xcconfig"; sourceTree = "<group>"; };
+		15EC7FF5CD4A73E47A962870 /* Pods-FictionGenerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FictionGenerator.release.xcconfig"; path = "Pods/Target Support Files/Pods-FictionGenerator/Pods-FictionGenerator.release.xcconfig"; sourceTree = "<group>"; };
+		1D4A042365A59D1246980EC8 /* Pods-FictionGenerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FictionGenerator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FictionGenerator/Pods-FictionGenerator.debug.xcconfig"; sourceTree = "<group>"; };
 		384C20C3F10A0CBF708F4D46 /* Pods_InfiniteMonkeysApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfiniteMonkeysApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B5FB370C546970D94E5F35 /* Pods-InfiniteMonkeys.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfiniteMonkeys.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InfiniteMonkeys/Pods-InfiniteMonkeys.debug.xcconfig"; sourceTree = "<group>"; };
 		6B50FFE2EA4F8CB40C8C23B9 /* Pods_InfiniteMonkeys.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfiniteMonkeys.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D014FC01D31314300425449 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6D014FC61D3134ED00425449 /* InfiniteMonkeysApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniteMonkeysApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D014FC61D3134ED00425449 /* FictionGeneratorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FictionGeneratorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D014FC81D3134ED00425449 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D014FCA1D3134ED00425449 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6D014FCD1D3134ED00425449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,16 +61,19 @@
 		6D014FD41D3134ED00425449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D014FD81D31359200425449 /* Poet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Poet.swift; sourceTree = "<group>"; };
 		6D014FDB1D31388D00425449 /* lstm_text_generation_weights.h5 */ = {isa = PBXFileReference; lastKnownFileType = file; path = lstm_text_generation_weights.h5; sourceTree = "<group>"; };
-		6DFCB3D11D26974A00FC5458 /* InfiniteMonkeys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniteMonkeys.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DFCB3D11D26974A00FC5458 /* FictionGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FictionGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DFCB3D41D26974A00FC5458 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DFCB3D61D26974A00FC5458 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6DFCB3D81D26974A00FC5458 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DFCB3DB1D26974A00FC5458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6DFCB3DD1D26974A00FC5458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9F9A6971D31DD200055D307 /* NetworkBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkBuilder.swift; sourceTree = "<group>"; };
+		BB625FA474C7D167A7BC2D76 /* Pods_FictionGeneratorApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FictionGeneratorApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2EC428C65CAEE65213E9CA1 /* Pods-FictionGeneratorApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FictionGeneratorApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FictionGeneratorApp/Pods-FictionGeneratorApp.debug.xcconfig"; sourceTree = "<group>"; };
 		D617FBF0F88CB3383903B13F /* Pods-InfiniteMonkeysApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfiniteMonkeysApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-InfiniteMonkeysApp/Pods-InfiniteMonkeysApp.release.xcconfig"; sourceTree = "<group>"; };
 		DFCE90F2E19BF17F9C6BA8BA /* Pods-InfiniteMonkeys.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfiniteMonkeys.release.xcconfig"; path = "Pods/Target Support Files/Pods-InfiniteMonkeys/Pods-InfiniteMonkeys.release.xcconfig"; sourceTree = "<group>"; };
 		F2CC46AD50193815333D0D4B /* Pods-InfiniteMonkeysApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfiniteMonkeysApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InfiniteMonkeysApp/Pods-InfiniteMonkeysApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FCE93FE78DEEF4C2149E3F0C /* Pods_FictionGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FictionGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +82,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC718C939E75FC7311D52765 /* Pods_InfiniteMonkeysApp.framework in Frameworks */,
+				36D026FF095430D103ECAA58 /* Pods_FictionGeneratorApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +91,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B60370AD98312FAB15D7AD9 /* Pods_InfiniteMonkeys.framework in Frameworks */,
+				1D8D3E9634A09570ECB4478F /* Pods_FictionGenerator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +105,10 @@
 				DFCE90F2E19BF17F9C6BA8BA /* Pods-InfiniteMonkeys.release.xcconfig */,
 				F2CC46AD50193815333D0D4B /* Pods-InfiniteMonkeysApp.debug.xcconfig */,
 				D617FBF0F88CB3383903B13F /* Pods-InfiniteMonkeysApp.release.xcconfig */,
+				1D4A042365A59D1246980EC8 /* Pods-FictionGenerator.debug.xcconfig */,
+				15EC7FF5CD4A73E47A962870 /* Pods-FictionGenerator.release.xcconfig */,
+				C2EC428C65CAEE65213E9CA1 /* Pods-FictionGeneratorApp.debug.xcconfig */,
+				100AA12C9E510560053BE5F2 /* Pods-FictionGeneratorApp.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -100,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				6D014FC81D3134ED00425449 /* AppDelegate.swift */,
+				02C1572C1F34771200436A3E /* ModelSelectViewController.swift */,
 				6D014FCA1D3134ED00425449 /* ViewController.swift */,
 				6D014FCC1D3134ED00425449 /* Main.storyboard */,
 				6D014FCF1D3134ED00425449 /* Assets.xcassets */,
@@ -127,8 +145,8 @@
 		6DFCB3D21D26974A00FC5458 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6DFCB3D11D26974A00FC5458 /* InfiniteMonkeys.app */,
-				6D014FC61D3134ED00425449 /* InfiniteMonkeysApp.app */,
+				6DFCB3D11D26974A00FC5458 /* FictionGenerator.app */,
+				6D014FC61D3134ED00425449 /* FictionGeneratorApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,6 +168,8 @@
 			children = (
 				6B50FFE2EA4F8CB40C8C23B9 /* Pods_InfiniteMonkeys.framework */,
 				384C20C3F10A0CBF708F4D46 /* Pods_InfiniteMonkeysApp.framework */,
+				FCE93FE78DEEF4C2149E3F0C /* Pods_FictionGenerator.framework */,
+				BB625FA474C7D167A7BC2D76 /* Pods_FictionGeneratorApp.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -157,9 +177,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6D014FC51D3134ED00425449 /* InfiniteMonkeysApp */ = {
+		6D014FC51D3134ED00425449 /* FictionGeneratorApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D014FD51D3134ED00425449 /* Build configuration list for PBXNativeTarget "InfiniteMonkeysApp" */;
+			buildConfigurationList = 6D014FD51D3134ED00425449 /* Build configuration list for PBXNativeTarget "FictionGeneratorApp" */;
 			buildPhases = (
 				856FADC3A497CDA4C6BDF8B2 /* [CP] Check Pods Manifest.lock */,
 				6D014FC21D3134ED00425449 /* Sources */,
@@ -172,14 +192,14 @@
 			);
 			dependencies = (
 			);
-			name = InfiniteMonkeysApp;
+			name = FictionGeneratorApp;
 			productName = InfiniteMonkeysApp;
-			productReference = 6D014FC61D3134ED00425449 /* InfiniteMonkeysApp.app */;
+			productReference = 6D014FC61D3134ED00425449 /* FictionGeneratorApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6DFCB3D01D26974A00FC5458 /* InfiniteMonkeys */ = {
+		6DFCB3D01D26974A00FC5458 /* FictionGenerator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DFCB3E01D26974A00FC5458 /* Build configuration list for PBXNativeTarget "InfiniteMonkeys" */;
+			buildConfigurationList = 6DFCB3E01D26974A00FC5458 /* Build configuration list for PBXNativeTarget "FictionGenerator" */;
 			buildPhases = (
 				8FA4DC2D132FA3423604085E /* [CP] Check Pods Manifest.lock */,
 				6DFCB3CD1D26974A00FC5458 /* Sources */,
@@ -193,9 +213,9 @@
 			);
 			dependencies = (
 			);
-			name = InfiniteMonkeys;
+			name = FictionGenerator;
 			productName = InfiniteMonkeys;
-			productReference = 6DFCB3D11D26974A00FC5458 /* InfiniteMonkeys.app */;
+			productReference = 6DFCB3D11D26974A00FC5458 /* FictionGenerator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -210,9 +230,12 @@
 				TargetAttributes = {
 					6D014FC51D3134ED00425449 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4DWNK4MCTP;
+						LastSwiftMigration = 0830;
 					};
 					6DFCB3D01D26974A00FC5458 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -229,8 +252,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6DFCB3D01D26974A00FC5458 /* InfiniteMonkeys */,
-				6D014FC51D3134ED00425449 /* InfiniteMonkeysApp */,
+				6DFCB3D01D26974A00FC5458 /* FictionGenerator */,
+				6D014FC51D3134ED00425449 /* FictionGeneratorApp */,
 			);
 		};
 /* End PBXProject section */
@@ -266,13 +289,20 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FictionGenerator/Pods-FictionGenerator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BrainCore-macOS/BrainCore.framework",
+				"${BUILT_PRODUCTS_DIR}/HDF5Kit-macOS/HDF5Kit.framework",
+				"${BUILT_PRODUCTS_DIR}/Upsurge-macOS/Upsurge.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BrainCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HDF5Kit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Upsurge.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InfiniteMonkeys/Pods-InfiniteMonkeys-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FictionGenerator/Pods-FictionGenerator-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		35B8CE38F89291BDDBB32473 /* [CP] Copy Pods Resources */ = {
@@ -287,7 +317,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InfiniteMonkeys/Pods-InfiniteMonkeys-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FictionGenerator/Pods-FictionGenerator-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5E8930EC6F707509929650AC /* [CP] Embed Pods Frameworks */ = {
@@ -296,13 +326,22 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FictionGeneratorApp/Pods-FictionGeneratorApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BrainCore-iOS/BrainCore.framework",
+				"${BUILT_PRODUCTS_DIR}/HDF5Kit-iOS/HDF5Kit.framework",
+				"${BUILT_PRODUCTS_DIR}/Upsurge-iOS/Upsurge.framework",
+				"${BUILT_PRODUCTS_DIR}/Dropper/Dropper.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BrainCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HDF5Kit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Upsurge.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Dropper.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InfiniteMonkeysApp/Pods-InfiniteMonkeysApp-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FictionGeneratorApp/Pods-FictionGeneratorApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		856FADC3A497CDA4C6BDF8B2 /* [CP] Check Pods Manifest.lock */ = {
@@ -311,13 +350,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FictionGeneratorApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		874882678421568FDB0A023A /* [CP] Copy Pods Resources */ = {
@@ -332,7 +374,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InfiniteMonkeysApp/Pods-InfiniteMonkeysApp-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FictionGeneratorApp/Pods-FictionGeneratorApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8FA4DC2D132FA3423604085E /* [CP] Check Pods Manifest.lock */ = {
@@ -341,13 +383,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FictionGenerator-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -360,6 +405,7 @@
 				A9F9A6991D31DD200055D307 /* NetworkBuilder.swift in Sources */,
 				6D014FCB1D3134ED00425449 /* ViewController.swift in Sources */,
 				6D014FDA1D31359200425449 /* Poet.swift in Sources */,
+				02C1572E1F34771300436A3E /* ModelSelectViewController.swift in Sources */,
 				6D014FC91D3134ED00425449 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,6 +417,7 @@
 				A9F9A6981D31DD200055D307 /* NetworkBuilder.swift in Sources */,
 				6DFCB3D71D26974A00FC5458 /* ViewController.swift in Sources */,
 				6D014FD91D31359200425449 /* Poet.swift in Sources */,
+				02C1572D1F34771300436A3E /* ModelSelectViewController.swift in Sources */,
 				6DFCB3D51D26974A00FC5458 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,32 +454,36 @@
 /* Begin XCBuildConfiguration section */
 		6D014FD61D3134ED00425449 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2CC46AD50193815333D0D4B /* Pods-InfiniteMonkeysApp.debug.xcconfig */;
+			baseConfigurationReference = C2EC428C65CAEE65213E9CA1 /* Pods-FictionGeneratorApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4DWNK4MCTP;
 				INFOPLIST_FILE = InfiniteMonkeysApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.handform.InfiniteMonkeysApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobgen.test1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		6D014FD71D3134ED00425449 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D617FBF0F88CB3383903B13F /* Pods-InfiniteMonkeysApp.release.xcconfig */;
+			baseConfigurationReference = 100AA12C9E510560053BE5F2 /* Pods-FictionGeneratorApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4DWNK4MCTP;
 				INFOPLIST_FILE = InfiniteMonkeysApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.handform.InfiniteMonkeysApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobgen.test1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -522,7 +573,7 @@
 		};
 		6DFCB3E11D26974A00FC5458 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55B5FB370C546970D94E5F35 /* Pods-InfiniteMonkeys.debug.xcconfig */;
+			baseConfigurationReference = 1D4A042365A59D1246980EC8 /* Pods-FictionGenerator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -534,12 +585,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.handform.InfiniteMonkeys;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		6DFCB3E21D26974A00FC5458 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFCE90F2E19BF17F9C6BA8BA /* Pods-InfiniteMonkeys.release.xcconfig */;
+			baseConfigurationReference = 15EC7FF5CD4A73E47A962870 /* Pods-FictionGenerator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -551,13 +603,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.handform.InfiniteMonkeys;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6D014FD51D3134ED00425449 /* Build configuration list for PBXNativeTarget "InfiniteMonkeysApp" */ = {
+		6D014FD51D3134ED00425449 /* Build configuration list for PBXNativeTarget "FictionGeneratorApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6D014FD61D3134ED00425449 /* Debug */,
@@ -575,7 +628,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6DFCB3E01D26974A00FC5458 /* Build configuration list for PBXNativeTarget "InfiniteMonkeys" */ = {
+		6DFCB3E01D26974A00FC5458 /* Build configuration list for PBXNativeTarget "FictionGenerator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DFCB3E11D26974A00FC5458 /* Debug */,

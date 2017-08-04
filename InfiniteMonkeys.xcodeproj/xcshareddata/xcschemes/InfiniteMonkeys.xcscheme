@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6DFCB3D01D26974A00FC5458"
-               BuildableName = "InfiniteMonkeys.app"
-               BlueprintName = "InfiniteMonkeys"
+               BuildableName = "FictionGenerator.app"
+               BlueprintName = "FictionGenerator"
                ReferencedContainer = "container:InfiniteMonkeys.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -33,8 +34,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6DFCB3D01D26974A00FC5458"
-            BuildableName = "InfiniteMonkeys.app"
-            BlueprintName = "InfiniteMonkeys"
+            BuildableName = "FictionGenerator.app"
+            BlueprintName = "FictionGenerator"
             ReferencedContainer = "container:InfiniteMonkeys.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -45,6 +46,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -56,8 +58,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6DFCB3D01D26974A00FC5458"
-            BuildableName = "InfiniteMonkeys.app"
-            BlueprintName = "InfiniteMonkeys"
+            BuildableName = "FictionGenerator.app"
+            BlueprintName = "FictionGenerator"
             ReferencedContainer = "container:InfiniteMonkeys.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -75,8 +77,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6DFCB3D01D26974A00FC5458"
-            BuildableName = "InfiniteMonkeys.app"
-            BlueprintName = "InfiniteMonkeys"
+            BuildableName = "FictionGenerator.app"
+            BlueprintName = "FictionGenerator"
             ReferencedContainer = "container:InfiniteMonkeys.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
