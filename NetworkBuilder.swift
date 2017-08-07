@@ -62,6 +62,8 @@ class NetworkBuilder {
         guard let file = File.open(path, mode: .readOnly) else {
             fatalError("File not found '\(path)'")
         }
+        
+        print("File = " + "\(file.id)")
 
         let lstm_1 = try! loadLSTMLayerFromFile(file, name: "lstm_1")
         let lstm_2 = try! loadLSTMLayerFromFile(file, name: "lstm_2")
@@ -76,6 +78,8 @@ class NetworkBuilder {
         guard let group = file.openGroup(name) else {
             fatalError("LSTM \(name) group not found in file")
         }
+        
+        print(group.objectNames())
 
         guard let
             ucDataset = group.openFloatDataset("\(name)_U_c"),
