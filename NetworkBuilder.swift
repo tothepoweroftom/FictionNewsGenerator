@@ -65,8 +65,8 @@ class NetworkBuilder {
         
         print("File = " + "\(file.id)")
 
-        let lstm_1 = try! loadLSTMLayerFromFile(file, name: "lstm_1")
-        let lstm_2 = try! loadLSTMLayerFromFile(file, name: "lstm_2")
+        let lstm_1 = try! loadLSTMLayerFromFile(file, name: "lstm_3")
+        let lstm_2 = try! loadLSTMLayerFromFile(file, name: "lstm_4")
         let denseLayer = loadDenseLayerFromFile(file)
 
         return Net.build {
@@ -79,7 +79,6 @@ class NetworkBuilder {
             fatalError("LSTM \(name) group not found in file")
         }
         
-        print(group.objectNames())
 
         guard let
             ucDataset = group.openFloatDataset("\(name)_U_c"),
@@ -122,21 +121,21 @@ class NetworkBuilder {
     }
 
     fileprivate func loadDenseLayerFromFile(_ file: File) -> InnerProductLayer {
-        guard let group = file.openGroup("dense_1") else {
+        guard let group = file.openGroup("dense_2") else {
             fatalError("Dense group not found in file")
         }
 
-        guard let weightsDataset = group.openFloatDataset("dense_1_W"), let weights = try? weightsDataset.read() else {
+        guard let weightsDataset = group.openFloatDataset("dense_2_W"), let weights = try? weightsDataset.read() else {
             fatalError("Dense weights not found in file")
         }
 
-        guard let biasesDataset = group.openFloatDataset("dense_1_b"), let biases = try? biasesDataset.read() else {
+        guard let biasesDataset = group.openFloatDataset("dense_2_b"), let biases = try? biasesDataset.read() else {
             fatalError("Dense biases not found in file")
         }
 
         let inputSize = weightsDataset.space.dims[0]
         let outputSize = weightsDataset.space.dims[1]
         let weightsMatrix = Matrix(rows: inputSize, columns: outputSize, elements: weights)
-        return InnerProductLayer(weights: weightsMatrix, biases: ValueArray(biases), name: "dense_1")
+        return InnerProductLayer(weights: weightsMatrix, biases: ValueArray(biases), name: "dense_2")
     }
 }

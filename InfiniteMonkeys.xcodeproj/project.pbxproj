@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		022AD3611F3A0DFD0044B68E /* trump_layers29.h5 in Resources */ = {isa = PBXBuildFile; fileRef = 022AD3601F3A0DFD0044B68E /* trump_layers29.h5 */; };
 		02C1572D1F34771300436A3E /* ModelSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C1572C1F34771200436A3E /* ModelSelectViewController.swift */; };
 		02C1572E1F34771300436A3E /* ModelSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C1572C1F34771200436A3E /* ModelSelectViewController.swift */; };
 		1D8D3E9634A09570ECB4478F /* Pods_FictionGenerator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE93FE78DEEF4C2149E3F0C /* Pods_FictionGenerator.framework */; };
@@ -44,6 +45,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		022AD3601F3A0DFD0044B68E /* trump_layers29.h5 */ = {isa = PBXFileReference; lastKnownFileType = file; name = trump_layers29.h5; path = ../../../Downloads/trump_layers29.h5; sourceTree = "<group>"; };
 		02C1572C1F34771200436A3E /* ModelSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModelSelectViewController.swift; path = ../../../../Developer/FictionGenerator/FictionGenerator/ModelSelectViewController.swift; sourceTree = "<group>"; };
 		100AA12C9E510560053BE5F2 /* Pods-FictionGeneratorApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FictionGeneratorApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FictionGeneratorApp/Pods-FictionGeneratorApp.release.xcconfig"; sourceTree = "<group>"; };
 		15EC7FF5CD4A73E47A962870 /* Pods-FictionGenerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FictionGenerator.release.xcconfig"; path = "Pods/Target Support Files/Pods-FictionGenerator/Pods-FictionGenerator.release.xcconfig"; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				6D014FD81D31359200425449 /* Poet.swift */,
 				A9F9A6971D31DD200055D307 /* NetworkBuilder.swift */,
 				6D014FDB1D31388D00425449 /* lstm_text_generation_weights.h5 */,
+				022AD3601F3A0DFD0044B68E /* trump_layers29.h5 */,
 				6DFCB3D31D26974A00FC5458 /* InfiniteMonkeys */,
 				6D014FC71D3134ED00425449 /* InfiniteMonkeysApp */,
 				6DFCB3E31D26976700FC5458 /* Frameworks */,
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D014FD31D3134ED00425449 /* LaunchScreen.storyboard in Resources */,
+				022AD3611F3A0DFD0044B68E /* trump_layers29.h5 in Resources */,
 				6D014FD01D3134ED00425449 /* Assets.xcassets in Resources */,
 				6D014FCE1D3134ED00425449 /* Main.storyboard in Resources */,
 				6D014FDD1D31388D00425449 /* lstm_text_generation_weights.h5 in Resources */,

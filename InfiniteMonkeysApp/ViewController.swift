@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        guard let path = Bundle.main.path(forResource: "lstm_text_generation_weights", ofType: "h5") else {
+        guard let path = Bundle.main.path(forResource: "trump_layers29", ofType: "h5") else {
             fatalError("Weigths file not found")
         }
         poet = Poet(pathToTrainedWeights: path)
